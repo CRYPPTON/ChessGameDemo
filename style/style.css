@@ -1,0 +1,74 @@
+body{
+    
+    background-color: #d4cfc7;
+}
+
+canvas{
+    margin-left: 50px;
+    background-color: white;
+    outline: solid #030303 5px;
+}
+h2{
+    text-align: center;
+}
+.game {
+    padding: 50px;
+    width: 50%;
+    height: 100%;
+}
+
+h2{
+    color : #889b87;
+}
+
+.chessPieces{
+    display: none;
+}
+
+#btnStart{   
+    border: solid red 2px;
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    background: rgb(46, 1, 1);
+    
+}
+#btnStart:hover {
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    background: rgb(185, 4, 4);
+    
+}
+
+#btnTheme {
+    border: solid red 2px;
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    background: rgb(46, 1, 1);
+   
+}
+
+#btnTheme:hover {
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    background: rgb(185, 4, 4);
+
+}
+
+.btns{   
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    width: 700px;
+    text-align: center;
+
+    margin-bottom: 25px;
+}
+
+.inner{
+        margin-left: 60px;
+        display: inline-block;
+}

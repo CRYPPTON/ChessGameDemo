@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Game</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="game">
+        <h2>Chess Game</h2>
+        <div class="btns">
+            <div class="inner"><button class="" id="btnStart" onclick="setTable()">Start Game</button><br></div>
+            <div class="inner"><button id="btnTheme" onclick="changeTheme()">Change Theme</button><br> </div>
+              
+        </div>
+        
+        <canvas id="myCanvas"  width="640" height="640"></canvas>   
+    </div>
+    
+    <div class="chessPieces">
+    <img id="wQueen" src="./photo/wQueen.png"></img>
+    <img id="bQueen" src="./photo/bQueen.png"></img>
+    <img id="bKing" src="./photo/bKing.png"></img>
+    <img id="wKing" src="./photo/wKing.png"></img>
+    <img id="bBishop" src="./photo/bBishop.png"></img>
+    <img id="wBishop" src="./photo/wBishop.png"></img>
+    <img id="wPawn" src="./photo/wPawn.png"></img>
+    <img id="bPawn" src="./photo/bPawn.png"></img>
+    <img id="bKnight" src="./photo/bKnight.png"></img>
+    <img id="wKnight" src="./photo/wKnight.png"></img>
+    <img id="bRook" src="./photo/bRook.png"></img>
+    <img id="wRook" src="./photo/wRook.png"></img>
+    </div>
+    <script src="./chess/chess.js"></script>
+</body>
+</html>
